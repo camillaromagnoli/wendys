@@ -72,7 +72,7 @@ void main() {
       build: () => menuCubit,
       act: (cubit) {
         when(() => saveOrderItemUseCaseMock.execute(orderItemModel))
-            .thenAnswer((_) async => Success({}));
+            .thenAnswer((_) async => const Success(null));
         cubit.saveOrderItem(orderItemModel);
       },
       expect: () => [

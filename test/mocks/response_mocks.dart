@@ -29,10 +29,10 @@ final getSiteMenu = {
   },
 };
 
-SubMenuModel subMenuModel = SubMenuModel(
+SubMenuModel subMenuModel = const SubMenuModel(
   name: 'Hamburgers',
   baseImageName: '121',
-  menuItems: const [
+  menuItems: [
     31535,
     30000,
     31704,

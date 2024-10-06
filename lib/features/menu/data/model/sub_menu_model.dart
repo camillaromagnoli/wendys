@@ -5,7 +5,7 @@ part 'sub_menu_model.g.dart';
 
 @JsonSerializable()
 class SubMenuModel extends SubMenuEntity {
-  SubMenuModel({
+  const SubMenuModel({
     required String name,
     required String baseImageName,
     required List<int> menuItems,

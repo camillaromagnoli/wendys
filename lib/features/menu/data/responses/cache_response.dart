@@ -1,6 +1,5 @@
 import 'package:equatable/equatable.dart';
 import 'package:hive/hive.dart';
-import 'package:wendys/features/menu/data/responses/get_site_menu_response.dart';
 
 part 'cache_response.g.dart';
 

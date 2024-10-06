@@ -1,9 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:get_it/get_it.dart';
-import 'package:hive_flutter/hive_flutter.dart';
 import 'package:injectable/injectable.dart';
 import 'package:wendys/core/di/injection.config.dart';
-import 'package:wendys/features/order/domain/entities/order_item_entity.dart';
 
 @module
 abstract class RegisterModule {

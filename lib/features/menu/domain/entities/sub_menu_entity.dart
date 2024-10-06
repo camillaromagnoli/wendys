@@ -5,7 +5,7 @@ abstract class SubMenuEntity extends Equatable {
   final String baseImageName;
   final List<int> menuItems;
 
-  SubMenuEntity({
+  const SubMenuEntity({
     required this.name,
     required this.baseImageName,
     required this.menuItems,

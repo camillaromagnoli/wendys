@@ -3,7 +3,6 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
 import 'package:multiple_result/multiple_result.dart';
 import 'package:wendys/core/exceptions/failure.dart';
-import 'package:wendys/features/menu/presentation/cubit/menu/menu_cubit.dart';
 import 'package:wendys/features/order/domain/usecases/delete_order_item_use_case.dart';
 import 'package:wendys/features/order/domain/usecases/get_order_use_case.dart';
 import 'package:wendys/features/order/presentation/cubit/order/order_cubit.dart';

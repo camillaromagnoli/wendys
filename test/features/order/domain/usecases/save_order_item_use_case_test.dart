@@ -21,7 +21,7 @@ void main() {
 
   test('Should delete an item when the response is a success', () async {
     when(() => orderRepository.saveOrderItem(any()))
-        .thenAnswer((_) async => const Success({}));
+        .thenAnswer((_) async => const Success(null));
 
     final result = await saveOrderItemUseCase.execute(orderItemModel);
 

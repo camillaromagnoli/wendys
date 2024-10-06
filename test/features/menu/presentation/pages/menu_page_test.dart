@@ -5,7 +5,6 @@ import 'package:mocktail/mocktail.dart';
 import 'package:wendys/core/design/widgets/circular_progress_indicator_widget.dart';
 import 'package:wendys/core/design/widgets/dialog_widget.dart';
 import 'package:wendys/features/menu/presentation/cubit/menu/menu_cubit.dart';
-import 'package:wendys/features/menu/presentation/pages/menu_item_page.dart';
 import 'package:wendys/features/menu/presentation/pages/menu_page.dart';
 
 import '../../../../mocks/cubit_mock.dart';

@@ -4,12 +4,10 @@ import 'package:mocktail/mocktail.dart';
 import 'package:multiple_result/multiple_result.dart';
 import 'package:wendys/core/exceptions/failure.dart';
 import 'package:wendys/features/menu/data/repositories/menu_repository_impl.dart';
-import 'package:wendys/features/menu/data/services/menu_service.dart';
 import 'package:wendys/features/menu/domain/repository/menu_repository.dart';
 
 import '../../../../mocks/response_mocks.dart';
-
-class MenuServiceMock extends Mock implements MenuService {}
+import '../../../../mocks/services_mock.dart';
 
 void main() {
   late MenuServiceMock menuServiceMock;
